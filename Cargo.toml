@@ -1,0 +1,9 @@
+[package]
+name = "async-basics"
+version = "0.1.0"
+authors = ["Your Name <your.email@provider.tld>"]
+edition = "2018"
+
+[dependencies]
+async-std = "1"
+surf = "1"

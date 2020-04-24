@@ -1,0 +1,89 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o" "-c" "nghttp2/lib/nghttp2_buf.c"
+nghttp2_buf.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o" "-c" "nghttp2/lib/nghttp2_callbacks.c"
+nghttp2_callbacks.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o" "-c" "nghttp2/lib/nghttp2_debug.c"
+nghttp2_debug.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o" "-c" "nghttp2/lib/nghttp2_frame.c"
+nghttp2_frame.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o" "-c" "nghttp2/lib/nghttp2_hd.c"
+nghttp2_hd.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o" "-c" "nghttp2/lib/nghttp2_hd_huffman.c"
+nghttp2_hd_huffman.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o" "-c" "nghttp2/lib/nghttp2_hd_huffman_data.c"
+nghttp2_hd_huffman_data.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o" "-c" "nghttp2/lib/nghttp2_helper.c"
+nghttp2_helper.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o" "-c" "nghttp2/lib/nghttp2_http.c"
+nghttp2_http.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o" "-c" "nghttp2/lib/nghttp2_map.c"
+nghttp2_map.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o" "-c" "nghttp2/lib/nghttp2_mem.c"
+nghttp2_mem.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o" "-c" "nghttp2/lib/nghttp2_npn.c"
+nghttp2_npn.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o" "-c" "nghttp2/lib/nghttp2_option.c"
+nghttp2_option.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o" "-c" "nghttp2/lib/nghttp2_outbound_item.c"
+nghttp2_outbound_item.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o" "-c" "nghttp2/lib/nghttp2_pq.c"
+nghttp2_pq.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o" "-c" "nghttp2/lib/nghttp2_priority_spec.c"
+nghttp2_priority_spec.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o" "-c" "nghttp2/lib/nghttp2_queue.c"
+nghttp2_queue.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o" "-c" "nghttp2/lib/nghttp2_rcbuf.c"
+nghttp2_rcbuf.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o" "-c" "nghttp2/lib/nghttp2_session.c"
+nghttp2_session.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o" "-c" "nghttp2/lib/nghttp2_stream.c"
+nghttp2_stream.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o" "-c" "nghttp2/lib/nghttp2_submit.c"
+nghttp2_submit.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "nghttp2/lib/includes" "-I" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\include" "-DNGHTTP2_STATICLIB" "-DHAVE_NETINET_IN" "-Dssize_t=int64_t" "-FoC:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o" "-c" "nghttp2/lib/nghttp2_version.c"
+nghttp2_version.c
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.24.28314\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\libnghttp2.a" "-nologo" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o" "C:\\Users\\sohail\\async-basics\\target\\debug\\build\\libnghttp2-sys-5aa949be28b87ed1\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o"
+exit code: 0
+cargo:rustc-link-lib=static=nghttp2
+cargo:rustc-link-search=native=C:\Users\sohail\async-basics\target\debug\build\libnghttp2-sys-5aa949be28b87ed1\out\i\lib
+cargo:root=C:\Users\sohail\async-basics\target\debug\build\libnghttp2-sys-5aa949be28b87ed1\out\i
